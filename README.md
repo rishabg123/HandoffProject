@@ -9,6 +9,10 @@ The goal of the app is to make running fun and competitive even when running tog
 
 All global information is stored on Firebase. The app pulls information from the server for a majority of its functions. When the app is booted up, sign in/sign up is required. After this screen, the main screen is shown. First the app checks Firebase if someone else in the group is currently running with the button. If someone is already running, then the run feature is disabled. It then loads the group goal and how close the group is to accomplishing the goal. This data loads on to the status bar. The individual miles of each user is also on this screen. When the baton is picked up, a new screen is shown. A timer starts and along with the location of the individual. Whenever the user finishes, he or she can hit stop and the miles run will be added to the individual and group total and saved on Firebase. 
 
+# Installing Our App
+
+Our app is completely open sourced meaning anyone has the power to download the app and play around with the code. To download, click the green drop down menu on the right side of the repository. Once you click it, you will have the option to download as a .zip file. Download the .zip file and extract it. Finally, open the folder in Xcode, which you can get for free on the Mac App Store. Select your device as the target and click run! Just like that you will have our app and code on your device. All assets and animations will be included when you download. Have fun!
+
 
 
 # Built With
