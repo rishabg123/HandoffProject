@@ -1,0 +1,6 @@
+framework module Pods_Handoff {
+  umbrella header "Pods-Handoff-umbrella.h"
+
+  export *
+  module * { export * }
+}
