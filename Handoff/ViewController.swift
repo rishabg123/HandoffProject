@@ -58,15 +58,7 @@ class ViewController: UIViewController {
             self.progress3 = (snapshot.value as? NSString)?.floatValue
             self.ProgressView3.progress = self.progress3! / 10
 
-            
-            
                }
-        
-        let total1 = (label1.text as NSString?)!.doubleValue
-        let total2 = (label2.text as NSString?)!.doubleValue
-        let total3 = (label3.text as NSString?)!.doubleValue
-        
-        print(total1 + total2 + total3)
         
 
         
@@ -96,7 +88,9 @@ class ViewController: UIViewController {
         ProgressView1.tintColor = .orange
         ProgressView2.tintColor = .orange
         ProgressView3.tintColor = .orange
-        percentComplete = 0.6
+        percentComplete = 0.8
+        
+    
         
                ref.observe(.value) { (snapshot) in
                    if snapshot.value as? String == "false"{

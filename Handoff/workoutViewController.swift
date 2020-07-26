@@ -72,7 +72,7 @@ class workoutViewController: UIViewController, MKMapViewDelegate, CLLocationMana
     @IBAction func start(_ sender: Any) {
         stopButton.isEnabled = true
                startButton.isEnabled = false
-               timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(count), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 0.02, target: self, selector: #selector(count), userInfo: nil, repeats: true)
 
     }
     @objc func count(){
