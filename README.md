@@ -15,6 +15,6 @@ All global information is stored on Firebase. The app pulls information from the
 
 Xcode: iOS platform 
 
-Firebase: live updating data storage 
+Google Firebase: live updating data storage 
 
-VS Studio: for Swift 
+Visual Studio Code: for Swift 
