@@ -1,1 +1,1 @@
-Sigma Hacks
+# SigmaHacks2.0
